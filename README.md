@@ -1,6 +1,9 @@
 # ROS_turtlebot3_OpenCV
 Turtlebot3 detects and follows a ball using OpenCV in ROS gazebo 
 
+[![Demo CountPages alpha](https://i9.ytimg.com/vi_webp/Rw6ATkORRG8/mq2.webp?sqp=CJTC7pwG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACrgWKAgwIABABGEwgZSghMA8=&rs=AOn4CLAFrLijmlC6DwUtfh_2LtCGmXVEEA)](https://youtu.be/Rw6ATkORRG8)
+
+
 
 In this repository, you can find a Python code that receives the camera image of a turtlebot3 waffle and turns the robot to detect and follow the ball, then push it into the yellow goal.For ball control, two fixed arms are also added to the robot.
 
