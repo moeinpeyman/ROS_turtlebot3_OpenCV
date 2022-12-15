@@ -13,11 +13,15 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simul
 2) clone the repository
 3) replace turtlebot3_waffle.urdf.xacro
 4) launch Turtlebot3
-    $ export TURTLEBOT3_MODEL=burger
-    $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+```sh
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+```
+
 5) run the code
-    $ python3 ball_goal.py
-    
+```sh
+    python3 ball_goal.py
+```   
     
  
 
