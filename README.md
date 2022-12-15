@@ -11,16 +11,26 @@ In this repository, you can find a Python code that receives the camera image of
 https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
 
 2) clone the repository
-3) replace turtlebot3_waffle.urdf.xacro
-4) launch Turtlebot3
 ```sh
-    export TURTLEBOT3_MODEL=burger
+    cd ~
+    git clone https://github.com/moeinpeyman/ROS_turtlebot3_OpenCV.git
+```
+4) replace turtlebot3_waffle.urdf.xacro
+```sh
+    cd ROS_turtlebot3_OpenCV/
+    cp turtlebot3_waffle.urdf.xacro ~/catkin_ws/src/turtlebot3/turtlebot3_description/urdf/
+```
+turtlebot3_waffle.urdf.xacro location differs depending on your system.
+
+5) launch Turtlebot3
+```sh
+    export TURTLEBOT3_MODEL=waffle
     roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 ```
 
-5) run the code
+6) run the code
 ```sh
-    python3 ball_goal.py
+    python3 Ball_and_Goal_follower.py
 ```   
     
  
