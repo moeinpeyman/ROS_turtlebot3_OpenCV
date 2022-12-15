@@ -41,7 +41,9 @@
     </inertial>
   </link>
 
-<!--   Peyman edit -->
+	
+<!--   Add new arms  -->
+<!--   https://github.com/moeinpeyman/ROS_turtlebot3_OpenCV  -->
 
  <joint name="ball_keeper_L" type="fixed">
     <parent link="base_link"/>
@@ -179,7 +181,7 @@
   </link> 
 
 
-<!--   Peyman edit -->
+<!--   Add new arms  -->
 
   <joint name="wheel_left_joint" type="continuous">
     <parent link="base_link"/>
